@@ -1,0 +1,17 @@
+# Ignore specific file
+filename.txt
+errors.py
+add_or_migrate.py
+forwarded_messages.py
+inline_mode.py
+payment.py
+pm.py
+migration_cache.py
+
+# Ignore all files with extension
+*.env
+
+# Ignore a folder and its contents
+/tests/
+/app/filters/
+/venv/

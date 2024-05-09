@@ -1,0 +1,14 @@
+[Unit]
+Description = This is service to run antivirus bot
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+
+WorkingDirectory=/root/virusbot
+ExecStart=/root/virusbot/venv/bin/python3 /root/virusbot/virusbot.py
+EnvironmentFile=/root/virusbot/config/file.env
+Restart=on-failure
+RestartSec=1s
