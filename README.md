@@ -1,3 +1,7 @@
+# Source Code of the Antivirus Bot
+![Example Image](bot_desc_pic.png)
+
+Welcome to the source code repository of the [Antivirus Bot](https://t.me/awesomeantivirus_bot). This bot is designed to provide antivirus services via Telegram.
 # How to Start a Bot
 
 ## 1. Download the Repository
